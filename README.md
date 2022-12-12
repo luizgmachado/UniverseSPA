@@ -40,14 +40,15 @@
 
 O Projeto desenvolvido com introdução ao ES6 Modules, exportando as principais funcionalidades do nosso projeto para contextos diferentes e entendermos a motivação para isso.
 
-Funcionalidades esperadas dos botões:
+Conceitos de SPA;
 
-- **Play**  : aciona o timer;
-- **Stop**  : para o timer;
-- ​    **\+**    : aumenta em mais 5 minutos o tempo do timer;
-- ​    **\-**    : diminui em 5 minutos o tempo do timer.
-- **Cards ao lado direito**: quando selecionado, muda de cor e começa a tocar o som específico, além disso o volume pode ser controlado pelo slide que está embaixo de cada ícone.
-- **Botão no canto superior direito**: É ali que você vai alternar entre o **Dark Mode** e o **Light Mode**.
+Mapeamento de rotas;
+
+Assíncrono e promises;
+
+Orientação a objetos;
+
+Classes e muito mais.
 
 #
 
