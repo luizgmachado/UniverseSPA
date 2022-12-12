@@ -12,21 +12,21 @@ export default function Events({
           homeButtonEvent()
           break
   
-        case '/':
+        case '#home':
           homeButtonEvent()
           break
   
-        case '/about':
+        case '#about':
           aboutButtonEvent()
           break
   
-        case '/explorer':
+        case '#explorer':
           explorerButtonEvent()
           break
       }
   
       function homeButtonEvent() {
-        window.location = '/'
+        window.location = '#home'
   
         buttonHome.classList.add('focus')
         buttonExplorer.classList.remove('focus')

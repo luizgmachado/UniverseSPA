@@ -5,10 +5,10 @@ import { buttonHome, buttonAbout, buttonExplorer, page } from './elements.js'
 const router = new Router()
 const events = Events({ buttonAbout, buttonHome, buttonExplorer, page })
 
-router.add('/', './pages/home.html')
-router.add('/about', './pages/about.html')
-router.add('/explorer', './pages/contact.html')
-router.add(404, './pages/404.html')
+router.add('#home', 'pages/home.html')
+router.add('#about', 'pages/about.html')
+router.add('#explorer', 'pages/explorer.html')
+router.add(404, 'pages/error.html')
 
 router.handle()
 window.route = () => router.route()
@@ -21,5 +21,4 @@ window.onhashchange = () => {
 page.addEventListener('click', () => {
   events.ButtonEvents()
 })
-
 
