@@ -59,6 +59,7 @@
     text-decoration: none;
   
     color: var(--text-color);
+    transition: 0.5s;
   }
   
   header nav a:hover,
@@ -119,6 +120,8 @@
 
     text-transform: uppercase;
     text-decoration: none;
+
+    transition: 0.3s;
   }
   
   #app a:hover {
