@@ -23,7 +23,7 @@
 
 - Figma do projeto disponível no 🔗 [Figma](https://www.figma.com/file/ceORR9JX9eUcMRR1l0tNBI/%5BDesafios-Explorer%5D-SPA-Universe-(Copy)?node-id=104%3A48&t=G5v1T0h8CcCSvr3D-0)
 
-![image](https://user-images.githubusercontent.com/108701750/207161184-330f0cd5-614b-4466-aee6-45cdfe2ffb2b.png)
+![image](https://user-images.githubusercontent.com/108701750/207184999-08772df9-f1ce-4cb6-a037-2561e693deff.png)
 
 #
 
