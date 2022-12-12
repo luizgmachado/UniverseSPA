@@ -32,7 +32,7 @@
 - HTML
 - CSS
 - JavaScript 
-- ES6 Modules
+- NodeJS
 
 #
 
