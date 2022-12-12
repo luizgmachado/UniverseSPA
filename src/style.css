@@ -14,19 +14,19 @@
   }
   
   body.bg-universe {
-    background-image: url(assets/universe.jpg);
+    background-image: url(/assets/universe.jpg);
   
   }
   
   body.bg-explorer {
-    background-image: url(assets/explorer.jpg);
+    background-image: url(/assets/explorer.jpg);
   
   }
   
   body {
     font-size: 1.6rem;
   
-    background-image: url(assets/home.jpg);
+    background-image: url(/assets/home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -45,13 +45,13 @@
   
     gap: 3.2rem;
   
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     font-weight: 400;
     line-height: 2.2rem;
   }
   
   header nav a img {
-    width: 5rem;
+    width: 6rem;
     height: 4.2rem;
   }
   
@@ -64,7 +64,7 @@
   header nav a:hover,
   .focus {
     font-weight: 700;
-    font-size: 2.4rem;
+    font-size: 2.8rem;
   
     color: white;
   }
@@ -74,8 +74,8 @@
   }
   
   main h1 {
-    font-size: 4.8rem;
-    line-height: 6rem;
+    font-size: 8.8rem;
+    line-height: 9rem;
     font-weight: 700;
   
     color: var(--heading-color);
@@ -104,7 +104,7 @@
   }
   
   #app a {
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     font-weight: 700rem;
     line-height: 2.4rem;
   
@@ -114,8 +114,9 @@
     background: transparent;
     border-radius: 0.5rem;
   
-    padding: 1.2rem 3.2rem;
-  
+    padding: 2.2rem 6.2rem;
+    margin-top: 4rem;
+
     text-transform: uppercase;
     text-decoration: none;
   }

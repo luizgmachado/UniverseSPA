@@ -1,0 +1,23 @@
+{
+  "name": "conceitospa",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <a href=\"#-layout\">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\r   <a href=\"#-tecnologias\">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\r   <a href=\"#-projeto\">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;\r   <a href=\"#memo-licença\">Licença</a>\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizgmachado/UniverseSPA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizgmachado/UniverseSPA/issues"
+  },
+  "homepage": "https://github.com/luizgmachado/UniverseSPA#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
