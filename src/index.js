@@ -1,14 +1,25 @@
- /* Criando um object literals */
-import { Router } from "./router.js"
+import Router from './router.js'
+import Events from './events.js'
+import { buttonHome, buttonAbout, buttonExplorer, page } from './elements.js'
 
 const router = new Router()
+const events = Events({ buttonAbout, buttonHome, buttonExplorer, page })
+
 router.add('/', './pages/home.html')
 router.add('/about', './pages/about.html')
-router.add('/contact', './pages/contact.html')
+router.add('/explorer', './pages/contact.html')
 router.add(404, './pages/404.html')
 
+router.handle()
+window.route = () => router.route()
+window.onpopstate = () => router.handle()
+events.ButtonEvents()
 
-  router.handle()
+window.onhashchange = () => {
+  events.ButtonEvents()
+}
+page.addEventListener('click', () => {
+  events.ButtonEvents()
+})
 
-  window.onpopstate = () => router.handle()
-  window.route = () => router.route()
+

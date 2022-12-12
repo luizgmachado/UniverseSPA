@@ -1,82 +1,132 @@
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-
-}
-
-:root {
-    font-size: 62,5%;
-    width: 100vw;
-    height: 100vh;
+  }
   
-
-}
-
-body {
-    background-image: url(/assets/universo1.jpg);
-    background-position: top center;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
+  :root {
+    --heading-color: #e1e1e6;
+    --text-color: rgb(206, 206, 209);
+  
     font-family: 'Roboto', sans-serif;
-    background-color: #090909;
-
-}
-
-
-nav {
+  
+    font-size: 62.5%;
+  }
+  
+  body.bg-universe {
+    background-image: url(assets/universe.jpg);
+  
+  }
+  
+  body.bg-explorer {
+    background-image: url(assets/explorer.jpg);
+  
+  }
+  
+  body {
+    font-size: 1.6rem;
+  
+    background-image: url(assets/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+  
+  header {
+    padding: 4rem 7.2rem;
+  }
+  
+  header nav {
     display: flex;
     align-items: center;
-    margin: 81px 89px 100px 89px;
-    gap: 6rem;
-   
-   
-}
-
-ul {
-    display: flex;
-    gap: 6rem;
-    list-style: none;
-
-}
-
-ul li a {
-    font-size: 24px;
+  
+    gap: 3.2rem;
+  
+    font-size: 2.2rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+  }
+  
+  header nav a img {
+    width: 5rem;
+    height: 4.2rem;
+  }
+  
+  header nav a {
     text-decoration: none;
-    color: antiquewhite;
-}
-
-ul li a:hover {
-    font-weight: bold;
-} 
-
-main {
-    text-align: center;
-    margin: 12rem auto;
-}
-
-main h1 {
-    font-size: 5rem;
-    color: antiquewhite;
-}
-
-main button {
-    width: 25rem;
-    height: 5rem;
-    border-radius: 6px;
-    font-size: 2rem;
-    margin-top: 3rem;
-    transition: 0.5s;
-    background-color: transparent;
-    color: aliceblue;
-    border-color: antiquewhite;
+  
+    color: var(--text-color);
+  }
+  
+  header nav a:hover,
+  .focus {
+    font-weight: 700;
+    font-size: 2.4rem;
+  
+    color: white;
+  }
+  
+  main {
+    padding: 6.3rem 10.2rem;
+  }
+  
+  main h1 {
+    font-size: 4.8rem;
+    line-height: 6rem;
+    font-weight: 700;
+  
+    color: var(--heading-color);
+  }
+  
+  main p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.9rem;
+  
+    color: var(--text-color);
+  
+    margin-top: 1.6rem;
+  
+    width: 64.8rem;
+  }
+  
+  #app .page-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    margin-top: 10rem;
+  
+    gap: 2.4rem;
+  }
+  
+  #app a {
+    font-size: 1.4rem;
+    font-weight: 700rem;
+    line-height: 2.4rem;
+  
+    color: var(--text-color);
+  
+    border: 0.2rem solid var(--text-color);
+    background: transparent;
+    border-radius: 0.5rem;
+  
+    padding: 1.2rem 3.2rem;
+  
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  #app a:hover {
     cursor: pointer;
-}
-
-main button:hover{
-    transform: scale(1.1);
     color: black;
-    background-color: blanchedalmond;
-}
-
+    font-weight: 700;
+  
+    background: white;
+  
+    border: 0.2rem solid white;
+  }
+  
