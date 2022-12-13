@@ -16,7 +16,7 @@
 
 ### 🔖 Layout
 
-- Projeto disponível no 🔗 [Deploy](https://luizgmachado.github.io/UniverseSPA/). 
+- Projeto disponível no 🔗 [Deploy](https://spauniverses.netlify.app/#home). 
 
 - Figma do projeto disponível no 🔗 [Figma](https://www.figma.com/file/ceORR9JX9eUcMRR1l0tNBI/%5BDesafios-Explorer%5D-SPA-Universe-(Copy)?node-id=104%3A48&t=G5v1T0h8CcCSvr3D-0)
 
