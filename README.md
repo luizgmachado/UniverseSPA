@@ -1,6 +1,3 @@
-# UniverseSPA
-
-
 
 <p align="center">
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
